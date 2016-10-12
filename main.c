@@ -16,7 +16,9 @@ int main(int argc, char *argv[]) {
 		printf("\nc[%d]=%d",i,c[i]);
 	}
 	printf("\nc陣列記憶體空間：%dBytes\n\n",sizeof(c));
+	printf("\nc陣列記憶體空間：%dBytes\n\n",sizeof(c));
 	system("PAUSE");
+	
 	
 	return 0;
 }
